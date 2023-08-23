@@ -27,7 +27,7 @@ personagem CriarPersonagens(int i, personagem G[])
   scanf("%d", &G[i].Vida);
   system("pause");
   system("cls");
-return G[i];
+  return G[i];
 }
 
 int main()
@@ -37,20 +37,42 @@ int main()
   printf("Insira a quantidade de personagens: ");
   scanf("%d", &Qt);
   personagem Personagens[Qt];
-  do{
-  printf("Deseja cadastrar um personagem:\n ");
-  printf("[1] - Sim | [2] - Nao | [3] - Sair\n");
-  printf("Insira: ");
-  scanf("%d", &opc);
+  do
+  {
+    printf("Menu de Opções:\n ");
+    printf("[1] - Criar Personagem \n [2] - Exibir Personagens \n [3] - Sair\n");
+    printf("Insira: ");
+    scanf("%d", &opc);
+    int i;
+    switch (opc)
+    {
 
-  if (opc == 1)
-  {
-    Personagens[x] = CriarPersonagens(x, Personagens);
-    x++;
-  }
-  else if(opc == 2)
-  {
-    printf("Ok");
-  }
-  }while(opc != 3);
+    case 1:
+
+      Personagens[x] = CriarPersonagens(x, Personagens);
+      x++;
+      break;
+    case 2:
+
+      for (i = 0; i < x; i++)
+      {
+
+        printf("Personagem [%d]\n", i);
+        printf("----------------------\n");
+        printf("Nome : %s\n", Personagens[i].Nome);
+        printf("Ataque : %d\n", Personagens[i].Ataque);
+        printf("Defesa : %d\n", Personagens[i].Defesa);
+        printf("Magia : %d\n", Personagens[i].Magia);
+        printf("Vida : %d\n", Personagens[i].Vida);
+        printf("----------------------");
+      }
+      break;
+      case 3:
+      return 0;
+      break;
+    default:
+      printf("Valor inválido, digite um valor entre 1 e 3");
+      break;
+    }
+  } while (opc != 3);
 }
