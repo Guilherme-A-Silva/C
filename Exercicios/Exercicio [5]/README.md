@@ -4,7 +4,7 @@
 
 # Apresentação do Problema
 
-<h2> Uma empresa [X] quer que o desenvolvedor que eles contraram produza um algortimo que receba os dados de seus funcionarios e busque por algum nome especifico e mostre todos os dados deste usuario. <br> </h2>
+<h2> Um hospital quer fazer um sistema para cadastrar o prontuario dos pacientes, apos cadastra-los, iremos filtrar os pacientes por estado(Grave,..etc). <br> </h2>
 
 # Esqueleto basico do algoritmo.
 
@@ -27,16 +27,15 @@
 
 ```c++
 {
-  typedef struct Funcionario{
+  typedef struct Paciente{
     char Nome[60];
     int Idade;
-    char Cargo[50];
-    float Salario;
+    char Estado[25]; // Vocês podem usar outros tipos de variaveis. Sinta-se livres, para usar a logica que quiserem.
     // Sinta-se a vontade para acrescentar mais variaveis.
-  }Funcionarios[50];
+  }Pacientes[50];
 ㅤmain() /* função obrigatória */
 ㅤ{
-ㅤㅤFuncionarios funcionarios;
+    Pacientes pacientes;
   }
 ㅤ}
 }
