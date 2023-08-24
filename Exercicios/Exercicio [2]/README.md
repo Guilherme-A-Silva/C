@@ -4,7 +4,7 @@
 
 # Apresentação do Problema
 
-<h2> Uma empresa [X] quer que o desenvolvedor que eles contraram produza um algortimo que receba 10 valores de tipo inteiro e ordene do maior para o menor e mostre o resultado dos valores ordenados dentro de um vetor. </h2><br>
+Uma empresa [X] quer que o desenvolvedor que eles contraram produza um algortimo que receba 10 valores de tipo inteiro e ordene do maior para o menor e mostre o resultado dos valores ordenados dentro de um vetor.<br>
 
 # Esqueleto basico do algoritmo.
 
