@@ -4,7 +4,7 @@
 
 # Apresentação do Problema
 
-Uma empresa [X] quer que o desenvolvedor que eles contraram produza um algortimo que receba 10 valores de tipo inteiro e se algum valor for par guarde em um vetor diferente do vetor inicial.<br>
+<h2> Uma empresa [X] quer que o desenvolvedor que eles contraram produza um algortimo que receba 10 valores de tipo inteiro e se algum valor for par guarde em um vetor diferente do vetor inicial.<br> </h2>
 
 # Esqueleto basico do algoritmo.
 
