@@ -4,7 +4,7 @@
 
 # Apresentação do Problema
 
-<h2> Implemente uma função chamada "somaVetor" que recebe um vetor de inteiros e o tamanho do vetor como parâmetros. A função deve retornar a soma de todos os elementos no vetor. No programa principal, crie um vetor de números inteiros e insira numeros nele, depois chame a função e exiba o resultado da soma.<br> </h2>
+<h2> Implemente uma função chamada "somaVetor" que recebe um vetor de inteiros e o tamanho do vetor como parâmetros. A função deve retornar a soma de todos os elementos no vetor. No programa principal(main), crie um vetor de números inteiros e insira números nele, depois chame a função e exiba o resultado da soma.<br> </h2>
 
 # Esqueleto basico do algoritmo.
 
