@@ -30,7 +30,7 @@
 
 # Sugestões
 
-<li> 
-<ul> Use a estrutura de controle switch para implementar o menu. </ul> 
-<ul> Utilize as funções das questões anteriores para realizar as tarefas de cada opção</ul> 
-</li>
+<ul> 
+<li> Use a estrutura de controle switch para implementar o menu. </li> 
+<li> Utilize as funções das questões anteriores para realizar as tarefas de cada opção</li> 
+</ul>
